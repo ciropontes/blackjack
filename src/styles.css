@@ -1,0 +1,99 @@
+body {}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+}
+
+.backpage {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+.card.btn:hover {
+  background-color: #DDD;
+}
+
+.box-container {
+  text-align: justify;
+  max-width: 600px;
+}
+
+.box-container h2 {
+  color: #37A174;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-play {
+  width: 100%;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.blackjack-container {
+  background-color: #3a966f;
+  margin-top: -1rem;
+  min-height: calc(100vh - 60px);
+  height: 100%;
+}
+
+.deck-card {
+  width: 15%;
+  min-width: 70px;
+}
+
+.logo {
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 120px;
+  }
+}
+
+.w-full {
+  width: 100%;
+}
+
+.info-deckid {
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  font-size: 10px;
+}
+
+.info {
+  font-size: 14px;
+}
+
+.card-game {
+  background-color: transparent;
+  margin: 5px;
+  padding: 15px 3px;
+  border: solid 5px;
+}
+
+.card-game.status-2 {
+  border-color: #0d6efd!important;
+}
+
+.card-game.status-4 {
+  border-color: #ffc107!important;
+}
+
+.card-game.status-3 {
+  border-color: #dc3545!important;
+}
+
+.row-history {
+  padding-right: 10px;
+}
